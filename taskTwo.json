@@ -1,0 +1,274 @@
+{
+  "A1": {
+    "A2": {
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 1
+    },
+    "B1": {
+      "Time": 2,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 2
+    }
+  },
+  "A2": {
+    "A1": {
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 1
+    },
+    "A3": {
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "B2": {
+      "Time": 12,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    }
+  },
+  "A3": {
+    "A2":{
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 1
+    },
+    "A4":{
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "B3":{
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 4
+    }
+  },
+  "A4": {
+    "A3":{
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "B4": {
+      "Time": 9,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    }
+  },
+  "B1":{
+    "A1":{
+      "Time": 2,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 2
+    },
+    "B2":{
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 5
+    },
+    "C1": {
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 4
+    }
+  },
+  "B2":{
+    "A2":{
+      "Time": 12,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    },
+    "B1":{
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 5
+    },
+    "B3": {
+      "Time": 6,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "C2": {
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 3
+    }
+  },
+  "B3":{
+    "A3":{
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 4
+    },
+    "B2":{
+      "Time": 6,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "B4": {
+      "Time": 3,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 2
+    },
+    "C3": {
+      "Time": 9,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    }
+  },
+  "B4":{
+    "A4":{
+      "Time": 9,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    },
+    "B3":{
+      "Time": 3,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 2
+    },
+    "C4": {
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 4
+    }
+  },
+  "C1":{
+    "B1":{
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 4
+    },
+    "C2":{
+      "Time": 7,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    },
+    "D1": {
+      "Time": 5,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    }
+  },
+  "C2":{
+    "B2":{
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 3
+    },
+    "C1":{
+      "Time": 7,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    },
+    "C3": {
+      "Time": 7,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    },
+    "D2": {
+      "Time": 8,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 5
+    }
+  },
+  "C3":{
+    "B3":{
+      "Time": 9,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "C2":{
+      "Time": 7,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    },
+    "C4": {
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 3
+    },
+    "D3": {
+      "Time": 3,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    }
+  },
+  "C4":{
+    "B4":{
+      "Time": 10,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 4
+    },
+    "C3":{
+      "Time": 6,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 3
+    },
+    "D4": {
+      "Time": 5,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    }
+  },
+  "D1": {
+    "C1": {
+      "Time": 5,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "D2": {
+      "Time": 7,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    }
+  },
+  "D2": {
+    "C2": {
+      "Time": 8,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 5
+    },
+    "D1": {
+      "Time": 7,
+      "TrafficLight": 0,
+      "TrafficLightDelay": 1
+    },
+    "D3": {
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 0
+    }
+  },
+  "D3": {
+    "C3":{
+      "Time": 3,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    },
+    "D2":{
+      "Time": 8,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 0
+    },
+    "D4":{
+      "Time": 9,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    }
+  },
+  "D4": {
+    "C4":{
+      "Time": 5,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 3
+    },
+    "D3": {
+      "Time": 9,
+      "TrafficLight": 1,
+      "TrafficLightDelay": 2
+    }
+  }
+}
